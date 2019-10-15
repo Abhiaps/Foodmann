@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/back"
+    tools:context=".Signin"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/food2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/username"
+        android:padding="8dp"
+        android:layout_height="45dp"
+        android:id="@+id/phone"
+        android:background="@drawable/shape"
+        android:hint="               PHONE NO"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/username"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="45dp"
+        android:id="@+id/name"
+        android:hint="                   NAME"
+        android:background="@drawable/shape" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/password"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:layout_height="45dp"
+        android:id="@+id/pass"
+        android:hint="              PASSWORD"
+        android:background="@drawable/shape"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:background="@drawable/shape1"
+        android:id="@+id/send"
+        android:text="SEND OTP"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/otp"
+        android:background="@drawable/shape"
+        android:hint="ENTER OTP"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape1"
+        android:layout_height="wrap_content"
+        android:id="@+id/signout"
+        android:textSize="22sp"
+        android:text="VERIFY OTP AND REGISTER"/>
+
+</LinearLayout>

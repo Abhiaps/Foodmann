@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back7"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="50dp"
+    android:orientation="vertical"
+    tools:context=".Welcome">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/main1"
+        android:layout_height="100dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/food3"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:id="@+id/notifications"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/notifications" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    tools:context=".Welcome">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/shape1"
+    android:textSize="18sp"
+    android:drawableLeft="@drawable/username"
+    android:padding="8dp"
+    android:gravity="left"
+    android:layout_height="wrap_content"
+    android:id="@+id/signin"
+    android:text="                    SIGN IN"/>
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/username"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:background="@drawable/shape1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                    SIGN UP" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape1"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/username"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/vendor"
+        android:text="             LIST YOUR FOOD"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/admin1"
+            android:src="@drawable/admin"/>
+    <Button
+        android:id="@+id/admin"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape1"
+        android:textSize="20sp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ADMIN PANEL" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

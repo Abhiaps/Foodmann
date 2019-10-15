@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Listyourfood">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKE YOUR OWN ACCOUNT TO SELL FOOD"
+        android:layout_marginBottom="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="FIRST NAME:"
+        android:textSize="18sp"/>
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:id="@+id/fname"
+        android:background="@drawable/shape"
+        android:hint="FIRST NAME"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="LAST NAME:"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/lname"
+            android:background="@drawable/shape"
+            android:hint="LAST NAME"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="MOBILE NO:"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/phone"
+            android:background="@drawable/shape"
+            android:hint="MOBILE NO "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="EMAIL ID:"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/email"
+            android:background="@drawable/shape"
+            android:hint="EMAIL ID"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="PIN CODE:"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/pin"
+            android:background="@drawable/shape"
+            android:hint="PIN CODE"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="PASSWORD:"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/pass"
+            android:background="@drawable/shape"
+            android:hint="PASSWORD"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="YOU WORK FROM:"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="HOME"
+                android:width="150dp"
+                android:id="@+id/home"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="RESTAURANT"
+                android:width="150dp"
+                android:id="@+id/restaurant"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"/>
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/submit"
+        android:background="@drawable/shape1"
+        android:text="SUBMIT"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign"
+        android:text="ALREADY REGISTER THEN SIGN IN"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

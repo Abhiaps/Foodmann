@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Admin">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/adminicon"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ENTER USERNAME"
+            android:padding="8sp"
+            android:textSize="22sp"
+            android:id="@+id/username"
+            android:drawableLeft="@drawable/username"
+            android:background="@drawable/shape"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/password"
+            android:hint="ENTER PASSWORD"
+            android:padding="8sp"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHANCES LEFT:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:id="@+id/chances"
+            android:background="#ff0000"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape1"
+        android:text="SUBMIT"
+        android:id="@+id/submit"
+        android:textSize="28sp"/>
+</LinearLayout>

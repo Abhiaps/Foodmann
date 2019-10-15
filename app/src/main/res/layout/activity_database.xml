@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".database">
+<Button
+    android:layout_width="300dp"
+    android:background="@drawable/shape1"
+    android:layout_height="180dp"
+    android:text="ORDER DATA"
+    android:id="@+id/user"
+    android:textSize="24sp"
+    android:textStyle="bold"/>
+    <Button
+        android:layout_width="300dp"
+        android:background="@drawable/shape1"
+        android:layout_height="180dp"
+        android:text="CATEGORIES"
+        android:id="@+id/menu"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="300dp"
+        android:background="@drawable/shape1"
+        android:layout_height="180dp"
+        android:text="FOOD ITEMS"
+        android:id="@+id/food"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+</LinearLayout>

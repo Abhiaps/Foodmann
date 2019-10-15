@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".categorydata">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="NAME"
+    android:id="@+id/name"
+    android:background="@drawable/shape"
+    android:textSize="22sp"
+    android:padding="8dp"
+    android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="LINK TO IMAGE"
+        android:layout_marginTop="30dp"
+        android:id="@+id/link"
+        android:background="@drawable/shape"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="NEXT"
+        android:id="@+id/next"
+        android:background="@drawable/shape1"
+        android:textSize="25sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/previous"
+        android:text="PREVIOUS"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape1"/>
+
+</LinearLayout>

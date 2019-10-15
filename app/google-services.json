@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469858343588",
+    "firebase_url": "https://food-cd3d2.firebaseio.com",
+    "project_id": "food-cd3d2",
+    "storage_bucket": "food-cd3d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469858343588:android:d89b12a845971446",
+        "android_client_info": {
+          "package_name": "com.example.foodmann"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469858343588-5de756lgtsqftlss3shmf42hf15u70nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodmann",
+            "certificate_hash": "ede63e4f1c327fd4d4eaab57aa57c30325144769"
+          }
+        },
+        {
+          "client_id": "469858343588-3kp5qqrhvvarb9f2r30m15jg5mbqbu9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7e4EdW9eStXBHnjJaWJfWdKQET7Nzy5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469858343588-3kp5qqrhvvarb9f2r30m15jg5mbqbu9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

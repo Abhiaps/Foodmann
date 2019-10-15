@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/a"
+    android:title="SIGN OUT"/>
+    <item android:title="CHANGE PINCODE"
+        android:id="@+id/b"/>
+    <item android:title="ABOUT"
+        android:id="@+id/c"/>
+    <item android:title="CART"
+        android:id="@+id/d"/>
+    <item android:title="TRACK FOOD"
+        android:id="@+id/e"/>
+    <item android:title="CANCEL DELIVERY"
+        android:id="@+id/f"/>
+
+</menu>
