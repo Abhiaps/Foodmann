@@ -44,7 +44,7 @@ public class Signup extends AppCompatActivity {
                     Random random = new Random();
                     rnd = random.nextInt(999999);
                     //Your authentication key
-                    String authkey = "271173Aa2sPsaGy6zq5ca86df3";
+                    String authkey = "xxxxxxxxxxxxxx";
                     //Multiple mobiles numbers separated by comma
                     String mobiles = phone.getText().toString();
                     //Sender ID,While using route4 sender id should be 6 characters long.
